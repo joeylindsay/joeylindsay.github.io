@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "ES2020",
+        "baseUrl": ".",
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "checkJs": false,
+        "allowJs": false,
+        "jsx": "react-jsx",
+        "target": "ES2020",
+        "rootDir": ".",
+        "moduleResolution": "Node",
+        // Use helpers from tslib for smaller build size
+        "importHelpers": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+    },
+    "include": [
+        "./app/**/*"
+    ],
+    "exclude": [
+        "./node_modules"
+    ]
+}

@@ -1,0 +1,19 @@
+npm-debug.log
+package-lock.json
+census-input/2016 Consumer Expenditure Complete.gdb
+census-input/2017 Consumer Expenditure Complete
+census-input/2019 Consumer Expenditure Complete
+census-input/*.singlefile.csv
+census-output/
+certs/
+dist/
+node_modules/
+*.pyc
+.DS_Store
+public/arcgis
+public/components
+app/metadata/*.js
+app/metadata/tooltips.d.ts
+coverage/
+stats.html
+.vs
