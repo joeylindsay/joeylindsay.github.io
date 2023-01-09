@@ -1,0 +1,246 @@
+import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
+import { ProficiencyEntry } from './ProficiencyEntry';
+
+export const ProficienciesPage = (): JSX.Element => (
+  <Grid2
+    container
+    spacing={1}
+    sx={{
+      px: 2,
+      paddingBottom: 2,
+      paddingTop: 1,
+      justifyContent: 'center',
+      backgroundColor: 'primary.main',
+    }}
+    columns={{ xs: 3, sm: 6, md: 7, lg: 11, xl: 14 }}
+  >
+    <ProficiencyEntry
+      name="Python"
+      iconLoc="https://img.icons8.com/color/144/null/python--v1.png"
+      years={10}
+      percent={97}
+    />
+    <ProficiencyEntry
+      name="Javascript"
+      iconLoc="https://img.icons8.com/color/96/null/javascript--v1.png"
+      years={6}
+      percent={90}
+    />
+    <ProficiencyEntry
+      name="Typescript"
+      iconLoc="https://img.icons8.com/color/144/null/typescript.png"
+      years={2}
+      percent={85}
+    />
+    <ProficiencyEntry
+      name="React"
+      iconLoc="https://img.icons8.com/officel/80/null/react.png"
+      years={1}
+      percent={75}
+    />
+    <ProficiencyEntry
+      name="Postgres"
+      iconLoc="https://img.icons8.com/color/144/null/postgreesql.png"
+      years={1}
+      percent={85}
+    />
+    <ProficiencyEntry
+      name="C++"
+      iconLoc="https://img.icons8.com/fluency/96/null/c-plus-plus-logo.png"
+      years={3}
+      percent={70}
+    />
+    <ProficiencyEntry
+      name="C#"
+      iconLoc="https://img.icons8.com/color/144/null/c-sharp-logo.png"
+      years={2}
+      percent={65}
+    />
+    <ProficiencyEntry
+      name="C"
+      iconLoc="https://img.icons8.com/fluency/144/null/c-programming.png"
+      years={2}
+      percent={60}
+    />
+    <ProficiencyEntry
+      name="GDAL"
+      iconLoc="app/assets/GDALLogoColor.png"
+      years={4}
+      percent={70}
+    />
+    <ProficiencyEntry
+      name="Git"
+      iconLoc="https://img.icons8.com/color/144/null/git.png"
+      years={8}
+      percent={90}
+    />
+    <ProficiencyEntry
+      name="Linux"
+      iconLoc="https://img.icons8.com/color/96/null/linux--v1.png"
+      years={8}
+      percent={75}
+    />
+    <ProficiencyEntry
+      name="Windows"
+      iconLoc="https://img.icons8.com/color/96/null/windows-10.png"
+      years={12}
+      percent={97}
+    />
+    <ProficiencyEntry
+      name="MacOS"
+      iconLoc="https://img.icons8.com/ios-glyphs/90/null/mac-client.png"
+      years={6}
+      percent={80}
+    />
+    <ProficiencyEntry
+      name="Material UI"
+      iconLoc="https://img.icons8.com/color/144/null/material-ui.png"
+      years={1}
+      percent={85}
+    />
+    <ProficiencyEntry
+      name="GitHub"
+      iconLoc="https://img.icons8.com/ios-filled/100/null/github.png"
+      years={8}
+      percent={85}
+    />
+    <ProficiencyEntry
+      name="QGIS"
+      iconLoc="app/assets/qgis-logo.png"
+      years={3}
+      percent={70}
+    />
+    <ProficiencyEntry
+      name="R"
+      iconLoc="https://img.icons8.com/fluency/144/null/r-project.png"
+      years={4}
+      percent={75}
+    />
+    <ProficiencyEntry
+      name="CSS"
+      iconLoc="https://img.icons8.com/color/144/null/css3.png"
+      years={2}
+      percent={70}
+    />
+    <ProficiencyEntry
+      name="Remote Sensing"
+      iconLoc="https://img.icons8.com/ios-glyphs/90/null/satellite-sending-signal.png"
+      years={3}
+      percent={70}
+    />
+    <ProficiencyEntry
+      name="Flight Planning"
+      iconLoc="https://img.icons8.com/material-sharp/96/null/airplane-mode-on.png"
+      years={1}
+      percent={60}
+    />
+    <ProficiencyEntry
+      name="Fortran"
+      iconLoc="app/assets/Fortran_logo.png"
+      years={1}
+      percent={50}
+    />
+    <ProficiencyEntry
+      name="XML"
+      iconLoc="https://img.icons8.com/office/80/null/xml-file.png"
+      years={6}
+      percent={95}
+    />
+    <ProficiencyEntry
+      name="KML"
+      iconLoc="https://img.icons8.com/office/80/null/kml.png"
+      years={2}
+      percent={85}
+    />
+    <ProficiencyEntry
+      name="JSON"
+      iconLoc="https://img.icons8.com/office/80/null/json.png"
+      years={2}
+      percent={90}
+    />
+    <ProficiencyEntry
+      name="GEOJSON"
+      iconLoc="app/assets/geojsonicon.png"
+      years={2}
+      percent={90}
+    />
+    <ProficiencyEntry
+      name="REST APIs"
+      iconLoc="https://img.icons8.com/color/96/null/cloud-connection.png"
+      years={2}
+      percent={80}
+    />
+    <ProficiencyEntry
+      name="Open Street Map"
+      iconLoc="app/assets/Openstreetmap_logo.png"
+      years={4}
+      percent={70}
+    />
+    <ProficiencyEntry
+      name="SQL Server"
+      iconLoc="https://img.icons8.com/color/96/null/microsoft-sql-server.png"
+      years={1}
+      percent={50}
+    />
+    <ProficiencyEntry
+      name="LaTex"
+      iconLoc="https://img.icons8.com/color/96/null/latex.png"
+      years={4}
+      percent={80}
+    />
+    <ProficiencyEntry
+      name="Google Earth Engine"
+      iconLoc="https://img.icons8.com/color/96/null/google-earth--v1.png"
+      years={3}
+      percent={90}
+    />
+    <ProficiencyEntry
+      name="Java"
+      iconLoc="https://img.icons8.com/fluency/96/null/java-coffee-cup-logo.png"
+      years={3}
+      percent={70}
+    />
+    <ProficiencyEntry
+      name="ESRI Software"
+      iconLoc="app/assets/esriLogo.png"
+      years={5}
+      percent={80}
+    />
+    <ProficiencyEntry
+      name="MS Office"
+      iconLoc="https://img.icons8.com/color/96/null/microsoft-office-2019.png"
+      years={12}
+      percent={99}
+    />
+    <ProficiencyEntry
+      name="Google Docs Suite"
+      iconLoc="https://img.icons8.com/color/96/null/google-drive--v2.png"
+      years={10}
+      percent={99}
+    />
+    <ProficiencyEntry
+      name="Software Design"
+      iconLoc="https://img.icons8.com/ios-filled/100/null/serial-tasks.png"
+      years={4}
+      percent={65}
+    />
+    <ProficiencyEntry
+      name="Agile Development"
+      iconLoc="https://img.icons8.com/fluency-systems-regular/96/null/agile.png"
+      years={3}
+      percent={80}
+    />
+    <ProficiencyEntry
+      name="GIMP"
+      iconLoc="https://img.icons8.com/color/96/null/gimp.png"
+      years={7}
+      percent={70}
+    />
+    <ProficiencyEntry
+      name="Machine Learning"
+      iconLoc="https://img.icons8.com/ios-filled/100/null/bmo.png"
+      years={1}
+      percent={45}
+    />
+  </Grid2>
+);

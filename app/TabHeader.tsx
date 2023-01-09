@@ -18,7 +18,7 @@ const FormattedTab: React.FC<FormattedTabProps & TabProps> = ({
   ...tabProps
 }) => (
   <Tab
-    sx={{ p: 1, minHeight: 1, minWidth: 100, width: '20%', color: '#dedede' }}
+    sx={{ p: 1, minHeight: 3, minWidth: 100, width: '20%', color: '#dedede' }}
     label={label}
     value={value}
     {...tabProps}

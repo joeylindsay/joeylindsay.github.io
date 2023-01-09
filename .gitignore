@@ -7,7 +7,6 @@ census-input/*.singlefile.csv
 census-output/
 certs/
 dist/
-node_modules/
 *.pyc
 .DS_Store
 public/arcgis
@@ -17,3 +16,4 @@ app/metadata/tooltips.d.ts
 coverage/
 stats.html
 .vs
+node_modules

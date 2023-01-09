@@ -1,7 +1,8 @@
 import { Box, Typography } from '@mui/material';
 import React, { useState, useRef } from 'react';
-import { HomePage } from './HomePanel';
+import { HomePage } from './HomePage';
 import { Panels } from './PanelTypes';
+import { ProficienciesPage } from './Proficiencies/ProficienciesPage';
 import { TabHeader } from './TabHeader';
 
 export const App: React.FC = () => {
@@ -32,7 +33,8 @@ export const App: React.FC = () => {
           tabBoxRef={tabBoxRef}
         />
       </Box>
-      <HomePage />
+      {activePanel === 'home' && <HomePage />}
+      {activePanel === 'proficiencies' && <ProficienciesPage />}
     </>
   );
 };
