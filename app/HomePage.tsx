@@ -11,7 +11,14 @@ import {
   ListItemText,
   Link,
 } from '@mui/material';
-import { Phone, Email, LinkedIn, GitHub, Home } from '@mui/icons-material';
+import {
+  Phone,
+  Email,
+  LinkedIn,
+  GitHub,
+  Home,
+  MusicNote,
+} from '@mui/icons-material';
 
 export const HomePage = (): JSX.Element => (
   <Box
@@ -62,7 +69,7 @@ export const HomePage = (): JSX.Element => (
                 variant="h6"
                 color="#0011ff"
               >
-                joeylindsay64@gmail.com
+                Email Me
               </Link>
             </ListItem>
             <ListItem>
@@ -74,7 +81,7 @@ export const HomePage = (): JSX.Element => (
                 variant="h6"
                 color="#0011ff"
               >
-                https://www.linkedin.com/in/joey-lindsay-489929bb
+                LinkedIn
               </Link>
             </ListItem>
             <ListItem>
@@ -86,7 +93,19 @@ export const HomePage = (): JSX.Element => (
                 variant="h6"
                 color="#0011ff"
               >
-                https://github.com/joeylindsay
+                GitHub
+              </Link>
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <MusicNote fontSize="large" />
+              </ListItemIcon>
+              <Link
+                href="https://open.spotify.com/user/dlindsay-us?si=46c1d63f88c54044"
+                variant="h6"
+                color="#0011ff"
+              >
+                Spotify
               </Link>
             </ListItem>
             <ListItem>
@@ -131,9 +150,9 @@ export const HomePage = (): JSX.Element => (
               I work to collect, format, display and analyze location-based data
               with innovative software solutions. I am currently working at
               ESRI, constructing public-facing web GIS Solutions for the Census
-              Bureau and NOAA. Outside of my professional life, I love writing
-              and tinkering with computers. I also enjoy playing video games,
-              watching baseball, hiking, and biking. Thanks for stopping by!
+              Bureau and NOAA. Outside of my professional life, I love writing,
+              playing video games, watching baseball, hiking, and biking. Thanks
+              for stopping by!
             </ListItemText>
           </List>
         </CardContent>

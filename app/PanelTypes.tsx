@@ -3,4 +3,5 @@ export type Panels =
   | 'projects'
   | 'proficiencies'
   | 'experience'
-  | 'hobbies';
+  | 'hobbies'
+  | 'writing';
