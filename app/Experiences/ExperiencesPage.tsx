@@ -48,7 +48,7 @@ export const ExperiencePage = (): JSX.Element => (
         timeframe="August 2018 - December 2019"
         iconLoc="/williamandmary.jpg"
         link="https://www.wm.edu/offices/residencelife/index.php"
-        description="In this role I conducted orientation presentations, crafted informative display boards, directed community-building initiatives, and ensured community safety and security. My time as a Resident Assistant taught me leadership, community engagement, and communications skills"
+        description="As a Resident Assistant I conducted orientation presentations, crafted informative display boards, directed community-building initiatives, and ensured resident safety and security while providing leadership to a group of new students at William & Mary."
       />
       <ExperienceEntry
         title="Print and Marketing Associate"
@@ -56,7 +56,7 @@ export const ExperiencePage = (): JSX.Element => (
         timeframe="June 2018 - January 2019"
         iconLoc="/staples.jpg"
         link="https://www.staples.com/services/printing/"
-        description="As a Staples Print and Marketing associate I designed and formatted documents, repaired printing equipment, and completed large print orders for customers. Through this role I learned printing, sales and customer service skills"
+        description="At Staples Print and Marketing, I designed and formatted documents, repaired printing equipment, and completed large specialty print orders while interacting face to face with customers."
       />
       <ExperienceEntry
         title="Campaign Intern"
@@ -64,7 +64,7 @@ export const ExperiencePage = (): JSX.Element => (
         timeframe="Febuary 2017 - May 2017"
         iconLoc="/connolly.png"
         link="https://gerryconnolly.com/"
-        description="As a Staples Print and Marketing associate I designed and formatted documents, repaired printing equipment, and completed large print orders for customers. Through this role I learned printing, sales and customer service skills"
+        description="At Connolly for Congress, I was responsible for calling and mailing constituents of the 11th district of Virginia to attract interest in a campaign rally event. I additionally assisted the campaign efforts by tracking contributions in Microsoft Excel."
       />
       <ExperienceEntry
         title="Technology Camp Counselor"
@@ -72,7 +72,7 @@ export const ExperiencePage = (): JSX.Element => (
         timeframe="June 2016 - July 2016"
         iconLoc="/fhs.jpg"
         link="https://www.flinthill.org/"
-        description="I taught children between the 3rd and 4th grade the basics of programming and robotics by using scratch and LEGO Mindstorms. I learned technology communications skills from this position."
+        description="While working as a Technology Camp Counselor, I taught children in 3rd and 4th grade the basics of programming and robotics by using MIT's Scratch and LEGO Mindstorms."
       />
     </Stack>
     <Stack
