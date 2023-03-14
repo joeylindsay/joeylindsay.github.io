@@ -6,7 +6,6 @@ census-input/2019 Consumer Expenditure Complete
 census-input/*.singlefile.csv
 census-output/
 certs/
-dist/
 *.pyc
 .DS_Store
 public/arcgis
