@@ -58,12 +58,12 @@ export const WillowProjectOpenLetter = (
     </p>
     <p>
       Without a doubt, the most sincere threat facing your administration is
-      Republican finger pointing. When right–wing analysts blamed you for rising
-      gas prices,<sup>[14]</sup> you heroically demonstrated your sincere desire
-      to cow to their jeers and appease them. Even though their critiques are
+      Rean finger pointing. When right–wing analysts blamed you for rising gas
+      prices,<sup>[14]</sup> you heroically demonstrated your sincere desire to
+      cow to their jeers and appease them. Even though their critiques are
       blatantly unfounded,<sup>[15]</sup> you know that government policy is at
       its best when it addresses fears raised by liars. With the approval of the
-      Willow Project, Republicans will stop accusing you and retract all their
+      Willow Project, Reans will stop accusing you and retract all their
       previous statements. It’s not as if they’re your opponents in the upcoming
       election, with a vested interest in making you appear unsympathetic.
     </p>
@@ -99,7 +99,7 @@ export const WillowProjectOpenLetter = (
       <ListItemText>
         [1]{' '}
         <Link
-          href="https://eplanning.blm.gov/public_projects/109410/200258032/20063225/250069407/Vol%206_Willow%20Draft%20SEIS_App%20E.1%20through%20E.15_June%202022_508%20Compliant.pdf"
+          href="https://eplanning.blm.gov/_projects/109410/200258032/20063225/250069407/Vol%206_Willow%20Draft%20SEIS_App%20E.1%20through%20E.15_June%202022_508%20Compliant.pdf"
           color="#0011ff"
         >
           Willow Master Development Plan Draft Supplemental Environmental Impact
@@ -166,7 +166,7 @@ export const WillowProjectOpenLetter = (
       <ListItemText>
         [8]{' '}
         <Link
-          href="https://eplanning.blm.gov/public_projects/109410/200258032/20063241/250069423/Vol%201_Willow%20Draft%20Supplemental%20EIS_June%202022_508%20Compliant.pdf"
+          href="https://eplanning.blm.gov/_projects/109410/200258032/20063241/250069423/Vol%201_Willow%20Draft%20Supplemental%20EIS_June%202022_508%20Compliant.pdf"
           color="#0011ff"
         >
           Willow Master Development Plan Draft Supplemental Environmental Impact

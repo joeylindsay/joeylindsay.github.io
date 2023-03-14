@@ -52,7 +52,7 @@ export const HomePage = (): JSX.Element => (
             display: 'flex',
             flexGrow: 1,
           }}
-          image="app/assets/headshot.jpg"
+          image="/headshot.jpg"
           alt="My Headshot"
         />
         <CardContent>
@@ -149,10 +149,10 @@ export const HomePage = (): JSX.Element => (
               My name is Joey Lindsay, and I am a geospatial software engineer.
               I work to collect, format, display and analyze location-based data
               with innovative software solutions. I am currently working at
-              ESRI, constructing public-facing web GIS Solutions for the Census
-              Bureau and NOAA. Outside of my professional life, I love writing,
-              playing video games, watching baseball, hiking, and biking. Thanks
-              for stopping by!
+              ESRI, constructing -facing web GIS Solutions for the Census Bureau
+              and NOAA. Outside of my professional life, I love writing, playing
+              video games, watching baseball, hiking, and biking. Thanks for
+              stopping by!
             </ListItemText>
           </List>
         </CardContent>

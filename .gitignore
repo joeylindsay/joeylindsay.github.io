@@ -8,8 +8,8 @@ census-output/
 certs/
 *.pyc
 .DS_Store
-public/arcgis
-public/components
+/arcgis
+/components
 app/metadata/*.js
 app/metadata/tooltips.d.ts
 coverage/

@@ -64,7 +64,7 @@ export const ProficienciesPage = (): JSX.Element => (
     />
     <ProficiencyEntry
       name="GDAL"
-      iconLoc="app/assets/GDALLogoColor.png"
+      iconLoc="/GDALLogoColor.png"
       years={4}
       percent={70}
     />
@@ -106,7 +106,7 @@ export const ProficienciesPage = (): JSX.Element => (
     />
     <ProficiencyEntry
       name="QGIS"
-      iconLoc="app/assets/qgis-logo.png"
+      iconLoc="/qgis-logo.png"
       years={3}
       percent={70}
     />
@@ -136,7 +136,7 @@ export const ProficienciesPage = (): JSX.Element => (
     />
     <ProficiencyEntry
       name="Fortran"
-      iconLoc="app/assets/Fortran_logo.png"
+      iconLoc="/Fortran_logo.png"
       years={1}
       percent={50}
     />
@@ -160,7 +160,7 @@ export const ProficienciesPage = (): JSX.Element => (
     />
     <ProficiencyEntry
       name="GEOJSON"
-      iconLoc="app/assets/geojsonicon.png"
+      iconLoc="/geojsonicon.png"
       years={2}
       percent={90}
     />
@@ -172,7 +172,7 @@ export const ProficienciesPage = (): JSX.Element => (
     />
     <ProficiencyEntry
       name="Open Street Map"
-      iconLoc="app/assets/Openstreetmap_logo.png"
+      iconLoc="/Openstreetmap_logo.png"
       years={4}
       percent={70}
     />
@@ -202,7 +202,7 @@ export const ProficienciesPage = (): JSX.Element => (
     />
     <ProficiencyEntry
       name="ESRI Software"
-      iconLoc="app/assets/esriLogo.png"
+      iconLoc="/esriLogo.png"
       years={5}
       percent={80}
     />
