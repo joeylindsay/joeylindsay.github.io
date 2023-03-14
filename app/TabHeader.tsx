@@ -18,7 +18,7 @@ const FormattedTab: React.FC<FormattedTabProps & TabProps> = ({
   ...tabProps
 }) => (
   <Tab
-    sx={{ p: 1, minHeight: 3, minWidth: 100, width: '20%', color: '#dedede' }}
+    sx={{ p: 1, minHeight: 3, minWidth: 100, width: '16.6%', color: '#dedede' }}
     label={label}
     value={value}
     {...tabProps}
@@ -53,6 +53,7 @@ export function TabHeader({
       <FormattedTab label="Proficiencies" value="proficiencies" />
       <FormattedTab label="Experience" value="experience" />
       <FormattedTab label="Hobbies" value="hobbies" />
+      <FormattedTab label="Writing" value="writing" />
     </Tabs>
   );
 }

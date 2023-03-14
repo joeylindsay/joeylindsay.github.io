@@ -46,7 +46,17 @@ export function WritingEntry({
         </IconButton>
       </Stack>
       <AnimatePresence>
-        {expanded && <motion.div>{children}</motion.div>}
+        {expanded && (
+          <motion.div
+            initial={{ height: 0 }}
+            animate={{ height: 'fit-content' }}
+            exit={{ height: 0 }}
+            transition={{ type: 'linear' }}
+            style={{ overflow: 'hidden' }}
+          >
+            {children}
+          </motion.div>
+        )}
       </AnimatePresence>
     </Stack>
   );
