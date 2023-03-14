@@ -20,6 +20,8 @@ export function WritingEntry({
         justifyContent="space-between"
         alignItems="center"
         p={2}
+        onClick={() => setExpanded(!expanded)}
+        aria-controls={`Toggle ${name} text`}
       >
         <Typography
           variant="h4"
@@ -30,7 +32,7 @@ export function WritingEntry({
         <IconButton
           onClick={() => setExpanded(!expanded)}
           aria-expanded={expanded}
-          aria-controls={`Expand ${name} entry`}
+          aria-controls={`Toggle ${name} text`}
         >
           <motion.div
             animate={{
