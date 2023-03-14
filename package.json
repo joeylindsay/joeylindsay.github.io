@@ -10,7 +10,8 @@
     "lint": "eslint app/js --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "eslint app/js --ext .js,.jsx,.ts,.tsx --fix",
     "lint-test": "eslint test --ext .js,.jsx,.ts,.tsx",
-    "dev": "vite"
+    "dev": "vite",
+    "prod": "vite build --mode=production"
   },
   "devDependencies": {
     "@types/core-js": "^2.5.5",
