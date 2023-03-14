@@ -26,20 +26,20 @@ export const WillowProjectOpenLetter = (
       and federal revenue by a maximum of 17 billion dollars.<sup>[6]</sup> The
       fact that the project will cost a minimum of 19.8 billion dollars in
       damages did not deter you.<sup>[7]</sup> Neither did reports from the
-      Bureau of Land Management, which indicate that total revenue would
-      actually be closer to 8 billion dollars.<sup>[8]</sup> If a 9 billion
-      dollar loss is what it takes to potentially convince a corporation to
-      funnel a much smaller amount of money into rural Alaskan communities, then
-      it’s surely a worthwhile investment. It’s obviously unimportant that,
-      according to its own statistics, ConocoPhillips gave just 52.9 million
-      dollars in contributions in 2021, or less than 1% of its yearly profits.
+      Bureau of Land Management, which indicate that total revenue will actually
+      be closer to 8 billion dollars.<sup>[8]</sup> If a 9 billion dollar loss
+      is what it takes to potentially convince a corporation to funnel a much
+      smaller amount of money into rural Alaskan communities, then it’s surely a
+      worthwhile investment. It’s obviously unimportant that, according to its
+      own statistics, ConocoPhillips gave just 52.9 million dollars in
+      contributions in 2021, or less than 1% of its yearly profits.
       <sup>[9]</sup> No, we need this oil, and we need it now.
     </p>
     <p>
       Which is why it was so brave of you to stand by Willow, even once you were
       aware that oil wouldn’t start flowing from the reserve for over six years.
       <sup>[8]</sup> It was quite discerning of you to plan ahead for the future
-      of fossil fuels, even when the project will do nothing to immediately
+      of fossil fuels, even though the project will do nothing to immediately
       lower gas prices. Your persistence was similarly admirable. Since the
       6,430 drilling permits you already approved,<sup>[10]</sup> including 26
       to ConocoPhillips in Alaska,<sup>[11]</sup> didn’t impact prices, the
@@ -58,12 +58,12 @@ export const WillowProjectOpenLetter = (
     </p>
     <p>
       Without a doubt, the most sincere threat facing your administration is
-      Rean finger pointing. When right–wing analysts blamed you for rising gas
-      prices,<sup>[14]</sup> you heroically demonstrated your sincere desire to
-      cow to their jeers and appease them. Even though their critiques are
+      Republican finger pointing. When right–wing analysts blamed you for rising
+      gas prices,<sup>[14]</sup> you heroically demonstrated your sincere desire
+      to cow to their jeers and appease them. Even though their critiques are
       blatantly unfounded,<sup>[15]</sup> you know that government policy is at
       its best when it addresses fears raised by liars. With the approval of the
-      Willow Project, Reans will stop accusing you and retract all their
+      Willow Project, Republicans will stop accusing you and retract all their
       previous statements. It’s not as if they’re your opponents in the upcoming
       election, with a vested interest in making you appear unsympathetic.
     </p>
