@@ -1,8 +1,11 @@
 import { Box, Typography } from '@mui/material';
 import React, { useState, useRef } from 'react';
+import { ExperiencePage } from './Experiences/ExperiencesPage';
+import { HobbiesPage } from './HobbiesPage';
 import { HomePage } from './HomePage';
 import { Panels } from './PanelTypes';
 import { ProficienciesPage } from './Proficiencies/ProficienciesPage';
+import { ProjectsPage } from './Projects/ProjectsPage';
 import { TabHeader } from './TabHeader';
 
 export const App: React.FC = () => {
@@ -34,7 +37,10 @@ export const App: React.FC = () => {
         />
       </Box>
       {activePanel === 'home' && <HomePage />}
+      {activePanel === 'projects' && <ProjectsPage />}
       {activePanel === 'proficiencies' && <ProficienciesPage />}
+      {activePanel === 'experience' && <ExperiencePage />}
+      {activePanel === 'hobbies' && <HobbiesPage />}
     </>
   );
 };
