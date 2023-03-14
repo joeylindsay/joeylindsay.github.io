@@ -19,7 +19,7 @@
     },
     "include": [
         "./app/**/*"
-    ],
+, "index.tsx"    ],
     "exclude": [
         "./node_modules"
     ]

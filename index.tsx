@@ -9,8 +9,8 @@ import '@fontsource/roboto/700.css';
 
 import { CssBaseline, ThemeProvider } from '@mui/material';
 
-import { JoeyTheme } from './Theming';
-import { App } from './App';
+import { JoeyTheme } from './app/Theming';
+import { App } from './app/App';
 
 // Create a root element for the application
 const root = createRoot(document.querySelector('#root')!);
