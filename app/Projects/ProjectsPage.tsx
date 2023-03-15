@@ -21,7 +21,7 @@ export const ProjectsPage = (): JSX.Element => (
     <ProjectEntry
       name="NOAA's FIDO Replacement"
       iconLoc="/flight-planning.png"
-      description="NOAA frequently flies shoreline imaging flights to track detailed coastal information in the United States. I was responsible for the design and construction of workflow software that allows NOAA to create flight projects, plan flights graphically, reupload, manage, and publish their imagery collections. I also completed the database design for this software, instantiating a custom postgres database with linked tables to update balues and perform validation automatically."
+      description="NOAA frequently flies shoreline imaging flights to track detailed coastal information in the United States. I was responsible for the design and construction of workflow software that allows NOAA to create flight projects, plan flights graphically, re-upload, manage, and publish their imagery collections. I also completed the database design for this software, instantiating a custom PostgreSQL database with linked tables to update values and perform validation automatically."
     />
     <ProjectEntry
       name="Capital Bikeshare Analysis"
@@ -32,7 +32,7 @@ export const ProjectsPage = (): JSX.Element => (
     <ProjectEntry
       name="Allegheny County Food Inspections"
       iconLoc="/ahCountyCourthouse.jpg"
-      description="Tracking the safety status of thousands of restaurants across an entire county is a difficult task involving large amounts of frequently updated data. I created and implemented a script that automatically pulls recent health inspection data and applies it Allegheny County's GIS layers, allowing administratiors to rapidly view and manage safety records."
+      description="Tracking the safety status of thousands of restaurants across an entire county is a difficult task involving large amounts of frequently updated data. I created and implemented a script that automatically pulls recent health inspection data and applies it Allegheny County's GIS layers, allowing administrators to rapidly view and manage safety records."
     />
     <ProjectEntry
       name="Tonlé Sap Food Security & Agriculture"
