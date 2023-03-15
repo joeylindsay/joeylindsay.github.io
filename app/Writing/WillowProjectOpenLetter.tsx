@@ -1,7 +1,12 @@
 import { Link, List, ListItemText, Typography } from '@mui/material';
 
 export const WillowProjectOpenLetter = (
-  <Typography variant="body1" sx={{ fontSize: 14, p: 2 }} lineHeight="2">
+  <Typography
+    variant="body1"
+    sx={{ fontSize: 14, p: 2 }}
+    lineHeight="2"
+    component="div"
+  >
     <p>Dear President Biden,</p>
     <p>
       I would like to personally commend you on your firm position with respect

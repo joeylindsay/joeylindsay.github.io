@@ -27,7 +27,12 @@ export function HobbiesEntry({
         p={1}
         sx={{ borderRadius: 2 }}
       >
-        <CardMedia component="img" image={imageLoc} alt={alt} />
+        <CardMedia
+          component="img"
+          image={imageLoc}
+          alt={alt}
+          sx={{ maxWidth: { xs: '100%', sm: '75%' } }}
+        />
         <Typography
           variant="body1"
           align="center"
