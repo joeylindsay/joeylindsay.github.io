@@ -24,7 +24,7 @@ export const ExperiencePage = (): JSX.Element => (
         timeframe="November 2021 - Present"
         iconLoc="/esriLogo.jpg"
         link="https://www.esri.com/en-us/home"
-        description="I work in ESRI's professional services division, creating customized solutions for customers interested in interacting with ESRI software in methods that go above and beyond out of the box deployments."
+        description="I work in ESRI's professional services division, creating customized solutions for customers interested in interacting with ESRI software in ways that go above and beyond out-of-the-box deployments."
       />
       <ExperienceEntry
         title="NASA DEVELOP Participant"

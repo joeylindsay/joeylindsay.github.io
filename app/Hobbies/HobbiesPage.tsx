@@ -44,7 +44,7 @@ export const HobbiesPage = (): JSX.Element => (
     />
     <HobbiesEntry
       imageLoc="/meandmario.jpg"
-      description="I've been a fam of video games ever since I was little, particularly single-player strategy or story-driven experiences. I'm always up for some Nintendo though, and would be happy to beat you at Super Smash Bros. or lose to you at Mario Kart."
+      description="I've been a fan of video games ever since I was little, particularly single-player strategy or story-driven experiences. I'm always up for some Nintendo though, and would be happy to beat you at Super Smash Bros (or lose to you at Mario Kart)."
       align="column"
       alt="A picture of me next to a lifesize cutout of Mario"
       columns={3}
