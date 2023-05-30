@@ -69,6 +69,12 @@ export const ProficienciesPage = (): JSX.Element => (
       percent={70}
     />
     <ProficiencyEntry
+      name="Visual Basic"
+      iconLoc="https://img.icons8.com/ios/100/visual-basic.png"
+      years={1}
+      percent={65}
+    />
+    <ProficiencyEntry
       name="Git"
       iconLoc="https://img.icons8.com/color/144/null/git.png"
       years={8}
