@@ -1,6 +1,6 @@
 import { Link, List, ListItemText, Typography } from '@mui/material';
 
-export const WillowProjectOpenLetter = (
+export const OpenLetter572023 = (
   <Typography
     variant="body1"
     sx={{ fontSize: 14, p: 2 }}

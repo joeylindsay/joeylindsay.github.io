@@ -49,6 +49,7 @@ export function TabHeader({
       }
     >
       <FormattedTab label="Home" value="home" />
+      <FormattedTab label="Blog" value="writing" />
       <FormattedTab label="Projects" value="projects" />
       <FormattedTab label="Proficiencies" value="proficiencies" />
       <FormattedTab label="Experience" value="experience" />
