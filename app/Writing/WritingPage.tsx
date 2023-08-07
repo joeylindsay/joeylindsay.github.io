@@ -15,14 +15,14 @@ export const WritingPage = (): JSX.Element => (
       backgroundColor: 'primary.main',
     }}
   >
+    <WritingEntry name="Waiting for Kohaku - 8/6/2023">
+      {Blog862023}
+    </WritingEntry>
     <WritingEntry name="An Open Letter to President Biden - 7/30/2023">
       {OpenLetter7302023}
     </WritingEntry>
     <WritingEntry name="An Open Letter to President Biden - 5/7/2023">
       {OpenLetter572023}
-    </WritingEntry>
-    <WritingEntry name="Waiting for Kohaku - 8/6/2023">
-      {Blog862023}
     </WritingEntry>
   </Stack>
 );
