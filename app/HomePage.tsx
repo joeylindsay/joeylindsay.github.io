@@ -133,7 +133,7 @@ export const HomePage = (): JSX.Element => (
                   variant: 'h6',
                 }}
               >
-                Chevy Chase, MD
+                Washington, DC
               </ListItemText>
             </ListItem>
             <ListItemText
