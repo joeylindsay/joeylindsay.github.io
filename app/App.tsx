@@ -7,7 +7,6 @@ import { Panels } from './PanelTypes';
 import { ProficienciesPage } from './Proficiencies/ProficienciesPage';
 import { ProjectsPage } from './Projects/ProjectsPage';
 import { TabHeader } from './TabHeader';
-import { WritingPage } from './Writing/WritingPage';
 
 export const App: React.FC = () => {
   const [activePanel, setActivePanel] = useState<Panels>('home');
@@ -42,7 +41,6 @@ export const App: React.FC = () => {
       {activePanel === 'proficiencies' && <ProficienciesPage />}
       {activePanel === 'experience' && <ExperiencePage />}
       {activePanel === 'hobbies' && <HobbiesPage />}
-      {activePanel === 'writing' && <WritingPage />}
     </>
   );
 };
